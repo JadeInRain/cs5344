@@ -1,0 +1,11 @@
+Project Context: CS5344 Project - Longitudinal Data RUL Prediction.
+Goal: Build ONE transferable pipeline for both SCANIA (trucks) and Backblaze (hard drives).
+Key Constraints:
+
+Evaluation: Cost-sensitive. Late alarms are much more expensive than early alarms.
+
+Labels: Binned ordinal RUL classes (0, 1, 2, 3, 4 for Scania; 0, 1, 2 for Backblaze).
+
+Format: Longitudinal data with variable length sequences.
+
+Coding Style: Modular Python with Type Hints (Java-style rigor). Use UniversalAdapter to unify column names.
