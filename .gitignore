@@ -1,0 +1,27 @@
+# CSV 数据集（不推送到仓库，仅保留目录结构）
+*.csv
+
+# 虚拟环境
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.PytestCache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 环境与 IDE
+.env
+.idea/
+*.swp
+*.swo
+.DS_Store
