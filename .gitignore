@@ -1,6 +1,6 @@
 # CSV 数据集（不推送到仓库，仅保留目录结构）
 *.csv
-
+.cursorrules
 # 虚拟环境
 .venv/
 
